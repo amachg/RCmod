@@ -1,0 +1,85 @@
+/*
+  Ανακατασκευή τηλεκατευθυνόμενου Rock Crawler jr της Maisto.
+  
+  Αντικατάσταση της χαλασμένης πλακέτας με Arduino Uno και δύο οδηγούς κινητήρων DRV887.
+  Ο ένας οδηγεί τους 4 κινητήρες των τροχών με σήμα PWM και ο άλλος την κρεμαγιέρα.
+  Όλοι οι κινητήρες είναι brushed-DC στα 9v.
+  Στην τροφοδοσία ισχύoς, αντικατάσταση των 6 αλκαλικών μπαταριών από μπαταριοθήκη, 
+  με 3 επαναφορτιζόμενες μπαταρίες 18650 Λιθίου (3x3,7v = 11,1v) στα 2400 mAh.
+  Η σύνδεση γίνεται στην είσοδο "βαρελάκι", με πτώση τάσης 1v πριν την έξοδο Vin,
+  η οποία τροφοροτεί τις πλακέτες των οδηγών κινητήρων.
+*/
+
+const unsigned long anamoni = 2000;
+const byte kato_PWM = 70;
+const byte pano_PWM = 120;
+const byte vima_PWM = 5;
+
+// Συνδέσεις οδηγού σε ψηφιακές ακίδες Arduino PWM.
+// κινητήρας κρεμαγιέρας
+const byte pin_ariste = 5;
+const byte pin_deksia = 6;
+// 4 κινητήρες τροχών
+const byte pin_piso = 10;
+const byte pin_empros = 11;
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println("\nSerial OK");
+
+  pinMode(pin_ariste, OUTPUT);
+  pinMode(pin_deksia, OUTPUT);
+  pinMode(pin_piso, OUTPUT);
+  pinMode(pin_empros, OUTPUT);
+  delay(100);
+}
+
+void loop() {
+  // Δοκιμές στροφής
+  // eutheisRodes();  delay(anamoni);
+  // strofiAriste();  delay(anamoni);
+  // eutheisRodes();  delay(anamoni);
+  // strofiDeksia();  delay(anamoni);
+  
+  // Δοκιμές πορείας μπρος-πίσω με αυξομείωση ταχύτητας
+  eutheisRodes();
+  epitaxunsi(pin_empros);
+  epivradunsi(pin_empros);
+  epitaxunsi(pin_piso);
+  epivradunsi(pin_piso);
+  
+  Serial.println("\nvroxos");
+}
+
+void eutheisRodes() {
+  Serial.println("eutheisRodes");
+  digitalWrite(pin_ariste, LOW);
+  digitalWrite(pin_deksia, LOW);
+}
+void strofiAriste() {
+  Serial.println("strofiAriste");
+  digitalWrite(pin_ariste, HIGH);
+  digitalWrite(pin_deksia, LOW);
+}
+void strofiDeksia() {
+  Serial.println("strofiDeksia");
+  digitalWrite(pin_ariste, LOW);
+  digitalWrite(pin_deksia, HIGH);
+}
+
+void epitaxunsi(const byte kateyth) {
+  Serial.println((String)"epitaxynsi "+ (kateyth==pin_piso? "piso": "empros"));
+  for (int i = kato_PWM; i <= pano_PWM; i += vima_PWM) {
+    analogWrite(kateyth, i);
+    Serial.print((String)" " + i);
+    delay(anamoni / 5);
+  }
+}
+void epivradunsi(const byte kateyth) {
+  Serial.println((String)"epivradunsi "+ (kateyth==pin_piso? "piso": "empros"));
+  for (int i = pano_PWM; i >= 0; i -= vima_PWM) {
+    analogWrite(kateyth, i);
+    Serial.print((String)" " + i);
+    delay(anamoni / 5);
+  }
+}
