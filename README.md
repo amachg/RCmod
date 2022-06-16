@@ -38,12 +38,15 @@ https://user-images.githubusercontent.com/38431707/174101089-7057f73e-228c-4413-
 ### Υλοποίηση
 Σε πρώτη φάση, αποσυναρμολογήσαμε αυτοκινητάκι ξεβιδώνοντας το αμάξωμα και εμφανίστηκε η η χαλασμένη ηλεκτρονική πλακέτα του. Προχωρήσαμε σε αντικατάσταση της χαλασμένης πλακέτας με μικροελεγκτή Arduino Uno.
 
-![3](https://user-images.githubusercontent.com/38431707/174101223-da25155b-f494-40e0-9c99-3a75ad5fc1e3.jpg)
-![7](https://user-images.githubusercontent.com/38431707/174101392-6101c3aa-0351-476d-889e-9dea85f56100.jpg)
-![8](https://user-images.githubusercontent.com/38431707/174101413-c79a66e0-4db3-4f49-89f0-e98fb7cc4089.jpg)
-![9](https://user-images.githubusercontent.com/38431707/174101472-6615ff50-c4a3-49a1-ad5b-bb0461a51aac.jpg)
+<img src="https://user-images.githubusercontent.com/38431707/174101223-da25155b-f494-40e0-9c99-3a75ad5fc1e3.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/38431707/174101392-6101c3aa-0351-476d-889e-9dea85f56100.jpg" width="400" />
+<img src="https://user-images.githubusercontent.com/38431707/174101413-c79a66e0-4db3-4f49-89f0-e98fb7cc4089.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/38431707/174101472-6615ff50-c4a3-49a1-ad5b-bb0461a51aac.jpg" width="400" />
 
 Επειδή η πλακέτα ήταν κολλημένη στους μεταλλικούς πόλους της μπαταριοθήκης, χρειάστηκε να ξεκολληθεί με τη βοήθεια ηλεκτρικού κολλητηριού και λίγης κόλλησης.
+
+
+<img src="https://user-images.githubusercontent.com/38431707/174101487-91f75009-9a87-47fe-8cea-75e891decb2.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/38431707/174101510-09a7128c-39a7-47a6-9acb-db0940fa6fd5.jpg" width="400" />
+<img src="https://user-images.githubusercontent.com/38431707/174101520-872f8ff8-4698-42e9-9025-61d39f48ced2.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/38431707/174101697-6b857e11-2dba-4ae2-a5bb-1512c4c9ec15.jpg" width="400" />
+
 ![10](https://user-images.githubusercontent.com/38431707/174101487-91f75009-9a87-47fe-8cea-75e891decb24.jpg)
 ![11](https://user-images.githubusercontent.com/38431707/174101510-09a7128c-39a7-47a6-9acb-db0940fa6fd5.jpg)
 ![12](https://user-images.githubusercontent.com/38431707/174101520-872f8ff8-4698-42e9-9025-61d39f48ced2.jpg)
