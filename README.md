@@ -80,7 +80,7 @@ https://user-images.githubusercontent.com/38431707/174101089-7057f73e-228c-4413-
   - Τσούλησε ελεύθερα μέχρι να σταματήσεις
 - Μέτρα την τάση της μπαταρίας, μέσω της αναλογικής θύρας, κάθε λεπτό και στείλε το αποτέλεσμα, για εμφάνιση στην εφαρμογή του κινητού τηλεφώνου
 
-<img src="https://user-images.githubusercontent.com/38431707/174129747-b316275d-ce39-4dcf-bfa5-ecff09640999.png" width="450" /> <img src="https://user-images.githubusercontent.com/38431707/174129116-b23955dd-0196-4276-b323-82ce37be7f88.png" width="450" /> <img src="https://user-images.githubusercontent.com/38431707/174127800-7ee067b9-8d1d-4bc1-a216-a79bd252b2aa.jpg" width="450" /> 
+<img src="https://user-images.githubusercontent.com/38431707/174129747-b316275d-ce39-4dcf-bfa5-ecff09640999.png" width="300" /> <img src="https://user-images.githubusercontent.com/38431707/174129116-b23955dd-0196-4276-b323-82ce37be7f88.png" width="300" /> <img src="https://user-images.githubusercontent.com/38431707/174127800-7ee067b9-8d1d-4bc1-a216-a79bd252b2aa.jpg" width="300" /> 
 
 ### Δοκιμές – Αποτελεσματικότητα 
 
