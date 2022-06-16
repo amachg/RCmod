@@ -38,19 +38,11 @@ https://user-images.githubusercontent.com/38431707/174101089-7057f73e-228c-4413-
 ### Υλοποίηση
 Σε πρώτη φάση, αποσυναρμολογήσαμε αυτοκινητάκι ξεβιδώνοντας το αμάξωμα και εμφανίστηκε η η χαλασμένη ηλεκτρονική πλακέτα του. Προχωρήσαμε σε αντικατάσταση της χαλασμένης πλακέτας με μικροελεγκτή Arduino Uno.
 
-<img src="https://user-images.githubusercontent.com/38431707/174101223-da25155b-f494-40e0-9c99-3a75ad5fc1e3.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/38431707/174101392-6101c3aa-0351-476d-889e-9dea85f56100.jpg" width="400" />
-<img src="https://user-images.githubusercontent.com/38431707/174101413-c79a66e0-4db3-4f49-89f0-e98fb7cc4089.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/38431707/174101472-6615ff50-c4a3-49a1-ad5b-bb0461a51aac.jpg" width="400" />
+<img src="https://user-images.githubusercontent.com/38431707/174101223-da25155b-f494-40e0-9c99-3a75ad5fc1e3.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174101392-6101c3aa-0351-476d-889e-9dea85f56100.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174101413-c79a66e0-4db3-4f49-89f0-e98fb7cc4089.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174101472-6615ff50-c4a3-49a1-ad5b-bb0461a51aac.jpg" width="500" />
 
 Επειδή η πλακέτα ήταν κολλημένη στους μεταλλικούς πόλους της μπαταριοθήκης, χρειάστηκε να ξεκολληθεί με τη βοήθεια ηλεκτρικού κολλητηριού και λίγης κόλλησης.
 
-
-<img src="https://user-images.githubusercontent.com/38431707/174101487-91f75009-9a87-47fe-8cea-75e891decb2.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/38431707/174101510-09a7128c-39a7-47a6-9acb-db0940fa6fd5.jpg" width="400" />
-<img src="https://user-images.githubusercontent.com/38431707/174101520-872f8ff8-4698-42e9-9025-61d39f48ced2.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/38431707/174101697-6b857e11-2dba-4ae2-a5bb-1512c4c9ec15.jpg" width="400" />
-
-![10](https://user-images.githubusercontent.com/38431707/174101487-91f75009-9a87-47fe-8cea-75e891decb24.jpg)
-![11](https://user-images.githubusercontent.com/38431707/174101510-09a7128c-39a7-47a6-9acb-db0940fa6fd5.jpg)
-![12](https://user-images.githubusercontent.com/38431707/174101520-872f8ff8-4698-42e9-9025-61d39f48ced2.jpg)
-![14](https://user-images.githubusercontent.com/38431707/174101697-6b857e11-2dba-4ae2-a5bb-1512c4c9ec15.jpg)
+<img src="https://user-images.githubusercontent.com/38431707/174101487-91f75009-9a87-47fe-8cea-75e891decb24.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174101510-09a7128c-39a7-47a6-9acb-db0940fa6fd5.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174101520-872f8ff8-4698-42e9-9025-61d39f48ced2.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174101697-6b857e11-2dba-4ae2-a5bb-1512c4c9ec15.jpg" width="500" />
 
 Το αυτοκινητάκι έχει τέσσερις κινητήρες τύπου brushed-DC που δουλεύουν στα 9v. Τους ελέγξαμε και λειτουργούν κανονικά άρα θα τους κρατήσουμε στο επισκευασμένο μοντέλο.
 Μετά την αφαίρεση της πλακέτας, ξεκολλήσαμε και τα καλώδια των τριών κινητήρων, από τις επαφές πάνω στην πλακέτα. Κατευθήναμε τα έξι αυτά καλώδια, ώστε να εμφανιστούν πάνω από το σασί και ξαναβιδώσαμε το αμάξωμα στο σασί με τις παλιές βίδες του.
@@ -58,17 +50,12 @@ https://user-images.githubusercontent.com/38431707/174101089-7057f73e-228c-4413-
 Πάνω στο αμάξωμα, κολλήσαμε τον ελεγκτή Uno και ένα μικρό breadboard, με θερμοκόλλα.
 Στο πίσω μέρος του αυτοκινήτου, ζεστάναμε με φλόγα αναπτήρα έναν πλάγιο πλαστικό προφυλακτήρα και τον λυγίσαμε, ώστε να γίνει οριζόντιος, σαν βάση. Πάνω του, κολλήσαμε την μπαταριοθήκη, που μαζί με τις μπαταρίες, είναι το πιο βαρύ μέρος του αυτοκινήτου.
 
-![IMG_20220521_184702_355](https://user-images.githubusercontent.com/38431707/174040885-c697cb71-2b8e-4b4a-8d83-ed2a3b81ae0e.jpg)
-![IMG_20220521_184702_616](https://user-images.githubusercontent.com/38431707/174040921-6a628213-9823-444d-9e3b-a3264ab03a80.jpg)
+<img src="https://user-images.githubusercontent.com/38431707/174040885-c697cb71-2b8e-4b4a-8d83-ed2a3b81ae0e.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174040921-6a628213-9823-444d-9e3b-a3264ab03a80.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174041082-8d8f7a4c-a8ef-4050-ba96-a0c9cd1a2e1b.jpg" width="500" /> <img src="https://user-images.githubusercontent.com/38431707/174041049-4059e040-b428-4f8d-ba59-ef3028ef6410.jpg" width="500" />
 
 Στην τροφοδοσία ισχύος, αντικαταστήσαμε τις έξι αλκαλικές μπαταρίες, με τρεις επαναφορτιζόμενες μπαταρίες 18650 Ιόντων-Λιθίου (Li-Ion) στα 12,6v (3x4,2v) με χωρητικότητα 2400 mAh, για μεγαλύτερη δύναμη και ταχύτητα στο αυτοκινητάκι.
 
-![IMG_20220521_184702_675](https://user-images.githubusercontent.com/38431707/174041082-8d8f7a4c-a8ef-4050-ba96-a0c9cd1a2e1b.jpg)
-
 Τα τέσσερα καλώδια των δύο κινητήρων DC που περιστρέφουν τους τέσσερις τροχούς, συνδέθηκαν (κατα ζεύγη) στην έξοδο της μιας πλακέτας (module) οδήγησης. Τα άλλα δύο καλώδια του κινητήρα στροφής του τιμονιού, συνδέθηκαν στην άλλη πλακέτα οδήγησης. Και οι δύο πλακέτες θηλύκωσαν με τα πινάκια τους πάνω στο breadboard.
 Το ίδιο έγινε και με την πλακέτα του BlueTooth, που σκοπό έχει να αντικαταστήσει την λειτουργία του χαλασμένου ασύρματου τηλεχειριστηρίου. Αυτή λαμβάνει ασύρματα τις εντολές που εκπέμπονται από κινητό τηλέφωνο και τις μεταφέρει στον ελεγκτή μέσω μιας σειριακής θύρας λογισμικού. Οι εντολές αυτές είναι οι: “κινήσου εμπρός”, “κινήσου πίσω”, “στρίψε αριστερά”, “στρίψε δεξιά”.
-
-![IMG_20220521_184702_484](https://user-images.githubusercontent.com/38431707/174041049-4059e040-b428-4f8d-ba59-ef3028ef6410.jpg)
 
 Πάνω στο breadboard έγιναν οι κατάλληλες συνδέσεις με καλώδια συνδετήρες. Η διασύνδεση μεταξύ ελεγκτή και breadboard έγινε με καλωδιοταινία εννιά αγωγών. Τέσσερις από αυτούς μεταφέρουν σήματα παλμοδιαμορφωμένα σήματα (PWM) προς τους οδηγούς των κινητήρων, ένα την τροφοδοσία τους με 11v, δύο συνδέουν την σειριακή θύρα του ασύρματου, ένα την τροφοδοσία του με 5v και το τελευταίο μεταφέρει την κοινή γη (GND). Τα 11v παρέχονται από την υποδοχή Vin του ελεγκτή, που δρα σαν έξοδος του ρεύματος της μπαταριοθήκης των 12v, μετά από μια πτώση τάσης γυρω στο 1v. Η μπαταριοθήκη συνδέεται στην κυλινδρική υποδοχή του ελεγκτή.
 
