@@ -112,3 +112,5 @@ https://user-images.githubusercontent.com/38431707/174103082-125a6377-f2f1-429d-
 Instagram: [@robot7gymchai](https://www.instagram.com/robot7gymchai/)
 
 email: amach@sch.gr
+
+Ιστοχώρος 7ου Γυμνάσιο Χαϊδαρίου: http://7gym-chaid.att.sch.gr
